@@ -197,3 +197,5 @@ This is a demonstration project showcasing FHEVM capabilities for privacy-preser
 - Uses [Hardhat](https://hardhat.org/) for smart contract development
 - Frontend built with [Next.js](https://nextjs.org/)
 
+
+
