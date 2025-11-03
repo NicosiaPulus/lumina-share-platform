@@ -7,6 +7,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 /// @title LuminaShare - Privacy-Preserved Content Sharing Platform
 /// @author LuminaShare Team
 /// @notice A FHEVM-based platform for encrypted content monetization and tipping
+/// @dev Uses FHEVM for homomorphic encryption of payment amounts and user data
 
 contract LuminaShare is ZamaEthereumConfig {
     // ============ Enums ============
