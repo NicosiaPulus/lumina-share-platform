@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "LuminaShare - Privacy-Preserved Content Sharing",
-  description: "Share, Monetize, and Support Creators with Full Privacy Protection",
+  description: "Share, Monetize, and Support Creators with Full Privacy Protection using FHEVM",
 };
 
 export default function RootLayout({
