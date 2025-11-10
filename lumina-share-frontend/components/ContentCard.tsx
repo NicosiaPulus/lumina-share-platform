@@ -23,6 +23,7 @@ const accessTypeLabels: Record<AccessTypeValue, string> = {
 };
 
 export function ContentCard({ content, contentId }: ContentCardProps) {
+  // Format creator address for display
   const shortAddress = `${content.creator.slice(0, 6)}...${content.creator.slice(-4)}`;
 
   return (
