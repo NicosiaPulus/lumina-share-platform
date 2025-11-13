@@ -20,6 +20,7 @@ async function deployFixture() {
 }
 
 describe("LuminaShare", function () {
+  // Test suite for LuminaShare contract functionality
   let signers: Signers;
   let contract: LuminaShare;
   let contractAddress: string;
