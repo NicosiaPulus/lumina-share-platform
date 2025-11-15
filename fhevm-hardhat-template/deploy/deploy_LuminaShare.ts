@@ -10,7 +10,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     log: true,
   });
 
-  console.log(`LuminaShare contract: `, deployedLuminaShare.address);
+  console.log(`LuminaShare contract deployed at: `, deployedLuminaShare.address);
 };
 export default func;
 func.id = "deploy_LuminaShare"; // id required to prevent reexecution
