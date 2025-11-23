@@ -36,6 +36,15 @@ A privacy-preserved content sharing platform built on FHEVM (Fully Homomorphic E
 - **Wallet Integration**: MetaMask with EIP-6963 support
 - **Encryption**: FHEVM for homomorphic encryption operations
 
+### Key Dependencies
+
+- `@fhevm/solidity`: ^0.9.1
+- `@fhevm/hardhat-plugin`: ^0.3.0-1
+- `@zama-fhe/relayer-sdk`: ^0.3.0-5
+- `@fhevm/mock-utils`: ^0.3.0-1
+- `ethers`: ^6.15.0
+- `hardhat`: ^2.26.0
+
 ## Getting Started
 
 ### Prerequisites
